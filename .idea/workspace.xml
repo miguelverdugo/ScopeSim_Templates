@@ -4,6 +4,7 @@
     <list default="true" id="c85dd81e-4790-4abe-b345-f59070a2a0f6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scopesim_templates/basic/galaxy.py" beforeDir="false" afterPath="$PROJECT_DIR$/scopesim_templates/basic/galaxy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scopesim_templates/tests/test_source_validation/test_validate_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/scopesim_templates/tests/test_source_validation/test_validate_content.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +53,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="131" />
@@ -81,8 +90,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ScopeSim" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -121,7 +132,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_stars.TestStarField.test_returns_source_object_with_minimal_input" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_misc.TestFlatField" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ScopeSim_Templates" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,11 +144,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stars.TestStarField.test_returns_source_object_with_minimal_input&quot;" />
+      <option name="_new_target" value="&quot;test_misc.TestFlatField&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_stars.TestStarGrid.test_returns_source_object_with_correct_weighting_in_jansky" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_misc.TestFlatField.test_flatfield_returns_source_object" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ScopeSim_Templates" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,7 +160,7 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_stars.TestStarGrid.test_returns_source_object_with_correct_weighting_in_jansky&quot;" />
+      <option name="_new_target" value="&quot;test_misc.TestFlatField.test_flatfield_returns_source_object&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -186,22 +197,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_stars.TestStarField.test_returns_source_object_with_minimal_input" />
-      <item itemvalue="Python tests.pytest for test_stars.TestStarGrid.test_returns_source_object_with_correct_weighting_in_jansky" />
       <item itemvalue="Python tests.pytest for test_misc.TestEmptySky.test_empty_sky_returns_source_object" />
       <item itemvalue="Python tests.pytest for test_validate_content.TestContentOfFields" />
       <item itemvalue="Python tests.pytest in test_validate_content.py" />
+      <item itemvalue="Python tests.pytest for test_misc.TestFlatField.test_flatfield_returns_source_object" />
+      <item itemvalue="Python tests.pytest for test_misc.TestFlatField" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.pytest in test_validate_content.py" />
+        <item itemvalue="Python tests.pytest for test_misc.TestFlatField" />
+        <item itemvalue="Python tests.pytest for test_misc.TestFlatField.test_flatfield_returns_source_object" />
         <item itemvalue="Python tests.pytest for test_validate_content.TestContentOfFields" />
         <item itemvalue="Python tests.pytest for test_misc.TestEmptySky.test_empty_sky_returns_source_object" />
-        <item itemvalue="Python tests.pytest for test_stars.TestStarGrid.test_returns_source_object_with_correct_weighting_in_jansky" />
-        <item itemvalue="Python tests.pytest for test_stars.TestStarField.test_returns_source_object_with_minimal_input" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -215,30 +227,15 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state width="1874" height="359" key="GridCell.Tab.0.bottom" timestamp="1594295939124">
-      <screen x="0" y="0" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1053@0.0.1920.1053" timestamp="1594295939124" />
-    <state width="1874" height="359" key="GridCell.Tab.0.center" timestamp="1594295939123">
-      <screen x="0" y="0" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.center/0.0.1920.1053@0.0.1920.1053" timestamp="1594295939123" />
-    <state width="1874" height="359" key="GridCell.Tab.0.left" timestamp="1594295939123">
-      <screen x="0" y="0" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.left/0.0.1920.1053@0.0.1920.1053" timestamp="1594295939123" />
-    <state width="1874" height="359" key="GridCell.Tab.0.right" timestamp="1594295939123">
-      <screen x="0" y="0" width="1920" height="1053" />
-    </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.right/0.0.1920.1053@0.0.1920.1053" timestamp="1594295939123" />
-    <state x="464" y="160" key="SettingsEditor" timestamp="1594285023946">
-      <screen x="0" y="0" width="1920" height="1053" />
-    </state>
-    <state x="464" y="160" key="SettingsEditor/0.0.1920.1053@0.0.1920.1053" timestamp="1594285023946" />
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1594296670436">
-      <screen x="0" y="0" width="1920" height="1053" />
-    </state>
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1053@0.0.1920.1053" timestamp="1594296670436" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
